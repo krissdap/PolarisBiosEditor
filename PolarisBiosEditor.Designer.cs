@@ -316,7 +316,7 @@ namespace PolarisBiosEditor
       this.boxVRAM.Controls.Add(this.tableVRAM);
       this.boxVRAM.Location = new System.Drawing.Point(555, 41);
       this.boxVRAM.Name = "boxVRAM";
-      this.boxVRAM.Size = new System.Drawing.Size(264, 582);
+      this.boxVRAM.Size = new System.Drawing.Size(736, 582);
       this.boxVRAM.TabIndex = 0;
       this.boxVRAM.TabStop = false;
       this.boxVRAM.Text = "VRAM";
@@ -332,7 +332,7 @@ namespace PolarisBiosEditor
       this.tableVRAM_TIMING.Font = new System.Drawing.Font("Courier New", 8.25F);
       this.tableVRAM_TIMING.Location = new System.Drawing.Point(3, 209);
       this.tableVRAM_TIMING.Name = "tableVRAM_TIMING";
-      this.tableVRAM_TIMING.Size = new System.Drawing.Size(258, 370);
+      this.tableVRAM_TIMING.Size = new System.Drawing.Size(730, 370);
       this.tableVRAM_TIMING.TabIndex = 11;
       this.tableVRAM_TIMING.UseCompatibleStateImageBehavior = false;
       this.tableVRAM_TIMING.View = System.Windows.Forms.View.Details;
@@ -408,7 +408,7 @@ namespace PolarisBiosEditor
       //
       // PolarisBiosEditor
       //
-      this.ClientSize = new System.Drawing.Size(829, 741);
+      this.ClientSize = new System.Drawing.Size(1299, 741);
       this.Controls.Add(this.boxVRAM);
       this.Controls.Add(this.boxMEM);
       this.Controls.Add(this.boxGPU);
